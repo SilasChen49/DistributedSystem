@@ -2,23 +2,30 @@ package rmi;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Iterator;
-import java.util.concurrent.ConcurrentHashMap;
 
 public class Database {
 
-    public static ConcurrentHashMap<String, Integer> booking_count = new ConcurrentHashMap<String, Integer>();
+    static class SingletonHolder {
+        static Database instance = new Database();
+    }
 
-    public static ConcurrentHashMap<String, HashMap<String, ArrayList<TimeSlotRecord>>> roomRecord = new ConcurrentHashMap<>();
+    public static Database getInstance() {
+        return SingletonHolder.instance;
+    }
 
-    static int bookingRecordNumber = 0;
-    static ArrayList<BookingRecord> bookingRecordList = new ArrayList<>();
+    public static HashMap<String, Integer> booking_count = new HashMap<>();
+
+    private static Hashtable<String, HashMap<String, ArrayList<TimeSlotRecord>>> roomRecord = new Hashtable<>();
+
+    private static ArrayList<BookingRecord> bookingRecordList = new ArrayList<>();
 
     public int createRoom(String date, String room_Number, String[] list_Of_Time_Slots) {
         int count = 0;
         int listStart = 0;
-        //if date or room_number doesn't exist, add a record firstly and then do the same as usual
-        if (!(roomRecord.contains(date) && roomRecord.get(date).containsKey(room_Number))) {
+        if (!(roomRecord.containsKey(date) && roomRecord.get(date).containsKey(room_Number))) {
+            System.out.println();
             ArrayList<TimeSlotRecord> arrayList = new ArrayList<>();
             TimeSlotRecord timeSlotRecord = new TimeSlotRecord(list_Of_Time_Slots[listStart]);
             listStart++;
@@ -45,7 +52,8 @@ public class Database {
             for (TimeSlotRecord existingTimeSlot : roomRecord.get(date).get(room_Number)) {
                 String[] stringBefore = parseTimeSlots(existingTimeSlot.timeslot);
                 String[] stringInsert = parseTimeSlots(timeSlotRecord.timeslot);
-                if (stringBefore[1].compareTo(stringInsert[0]) > 0 && stringBefore[0].compareTo(stringInsert[1]) < 0) {
+                if ((stringBefore[1].compareTo(stringInsert[0]) > 0 && stringBefore[0].compareTo(stringInsert[1]) < 0)
+                        || (stringBefore[0].equals(stringInsert[0]) && stringBefore[1].equals(stringInsert[1]))) {
                     insertAvailable = false;
                     break;
                 }
@@ -57,26 +65,26 @@ public class Database {
                 insertAvailable = false;
             }
         }
-
         return count;
     }
 
     public int deleteRoom(String date, String room_Number, String[] list_Of_Time_Slots) {
         // for every timeslot in the list
         int count = 0;
-
         if (roomRecord.containsKey(date) && roomRecord.get(date).containsKey(room_Number)) {
             for (int i = 0; i < list_Of_Time_Slots.length; i++) {
                 String timeslot = list_Of_Time_Slots[i];
-//            TimeSlotRecord timeSlotRecord = new TimeSlotRecord(timeslot); {
                 // To find if there is the same timeslot
                 for (Iterator<TimeSlotRecord> iterator = roomRecord.get(date).get(room_Number).iterator(); iterator.hasNext(); ) {
                     TimeSlotRecord timeSlotRecord = iterator.next();
+                    // if someone has booked the room, reduce the booking_count
                     if (timeSlotRecord.timeslot.equals(timeslot)) {
                         if (timeSlotRecord.studentID != null) {
-                            /*
-                            * inform student it is canceled
-                            * */
+                            // modify the booking count
+                            String data = "modifyCount," + timeSlotRecord.studentID +"," + "-1";
+                            String campusName = timeSlotRecord.studentID.substring(0,3);
+                            ServiceImpl.UDPTransort(data, campusName);
+//                            booking_count.put(timeSlotRecord.studentID, booking_count.get(timeSlotRecord.studentID) - 1);
                         }
                         //delete the room now
                         iterator.remove();
@@ -87,10 +95,11 @@ public class Database {
         } else {
             count = 0;
         }
+
         return count;
     }
 
-    public String bookRoom(String studentID, String date, String room_Number, String timeslot) {
+    public String bookRoom(String studentID, String campusName, String date, String room_Number, String timeslot) {
         String bookingID = "";
         if (roomRecord.containsKey(date) && roomRecord.get(date).containsKey(room_Number)) {
             for (TimeSlotRecord timeSlotRecord : roomRecord.get(date).get(room_Number)) {
@@ -101,10 +110,27 @@ public class Database {
                     }
                     // this room timeslot is available
                     else {
-                        timeSlotRecord.studentID = studentID;
-                        BookingRecord bookingRecord = new BookingRecord(studentID, date, room_Number, timeslot);
-                        bookingRecordList.add(bookingRecord);
-                        bookingID = bookingRecord.bookingID;
+                        // get booking_count(studentID)
+                        // if it is smaller than 3.
+                        String data = "getBookingCount," + studentID;
+                        String studentCampus = studentID.substring(0,3);
+                        String reply = ServiceImpl.UDPTransort(data, studentCampus);
+                        int count = -1;
+                        try {
+                            count = Integer.parseInt(reply);
+                        }catch (Exception e){
+                            System.out.println("Getting Count Error!");
+                        }
+                        System.out.println(count);
+                        if (count < 3) {
+                            timeSlotRecord.studentID = studentID;
+                            BookingRecord bookingRecord = new BookingRecord(studentID, campusName, date, room_Number, timeslot);
+                            bookingRecordList.add(bookingRecord);
+                            bookingID = bookingRecord.bookingID;
+                            data = "modifyCount," + timeSlotRecord.studentID +"," + "+1";
+                            ServiceImpl.UDPTransort(data, studentCampus);
+                        }
+
                     }
                 }
             }
@@ -130,7 +156,7 @@ public class Database {
         if (flag) {
             for (Iterator<TimeSlotRecord> iterator = roomRecord.get(date).get(room_Number).iterator(); iterator.hasNext(); ) {
                 TimeSlotRecord timeSlotRecord = iterator.next();
-                if (timeSlotRecord.timeslot.equals(timeslot) && timeSlotRecord.studentID!=null && timeSlotRecord.studentID.equals(studentID)) {
+                if (timeSlotRecord.timeslot.equals(timeslot) && timeSlotRecord.studentID != null && timeSlotRecord.studentID.equals(studentID)) {
                     timeSlotRecord.studentID = null;
                 }
             }
@@ -140,42 +166,21 @@ public class Database {
 
     public int getAvailableTimeSlot(String date) {
         int count = 0;
-        for (HashMap.Entry<String, ArrayList<TimeSlotRecord>> room: roomRecord.get(date).entrySet()){
-            for (TimeSlotRecord timeSlotRecord : room.getValue()){
-                if (timeSlotRecord.studentID==null)
-                    count++;
+        if (roomRecord.containsKey(date))
+            for (HashMap.Entry<String, ArrayList<TimeSlotRecord>> room : roomRecord.get(date).entrySet()) {
+                for (TimeSlotRecord timeSlotRecord : room.getValue()) {
+                    if (timeSlotRecord.studentID == null)
+                        count++;
+                }
             }
-        }
         return count;
     }
 
-    private class TimeSlotRecord {
-        String timeslot;
-        String studentID;
-
-        TimeSlotRecord(String timeslot) {
-            this.timeslot = timeslot;
-        }
-    }
-
-
-    private class BookingRecord {
-        BookingRecord(String studentID, String date, String room_Number, String timeslot) {
-
-            this.studentID = studentID;
-            this.date = date;
-            this.room_Number = room_Number;
-            this.timeslot = timeslot;
-            bookingRecordNumber++;
-            this.bookingID = "BNO" + bookingRecordNumber;
-            this.wasCancelled = false;
-        }
-        boolean wasCancelled;
-        String bookingID;
-        String studentID;
-        String date;
-        String room_Number;
-        String timeslot;
+    public void modifyBookingCount(String studentID, int x){
+        if (!booking_count.containsKey(studentID))
+            booking_count.put(studentID,0);
+        booking_count.put(studentID, booking_count.get(studentID)+x);
+        System.out.println("studentID:" + booking_count.get(studentID));
     }
 
     private String[] parseTimeSlots(String time_Slots) {
@@ -183,4 +188,38 @@ public class Database {
         string = time_Slots.split("-");
         return string;
     }
+}
+
+class TimeSlotRecord {
+    String timeslot;
+    String studentID;
+
+    TimeSlotRecord(String timeslot) {
+        this.timeslot = timeslot;
+    }
+}
+
+
+class BookingRecord {
+    static int bookingRecordNumber = 0;
+
+    BookingRecord(String studentID, String campusName, String date, String room_Number, String timeslot) {
+
+        this.studentID = studentID;
+        this.date = date;
+        this.room_Number = room_Number;
+        this.timeslot = timeslot;
+        this.campusName = campusName;
+        bookingRecordNumber++;
+        this.bookingID = campusName + "BNO" + bookingRecordNumber;
+        this.wasCancelled = false;
+    }
+
+    boolean wasCancelled;
+    String bookingID;
+    String studentID;
+    String campusName;
+    String date;
+    String room_Number;
+    String timeslot;
 }

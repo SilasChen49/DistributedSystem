@@ -1,0 +1,9 @@
+action: Book Room
+result: Booking failed.
+
+action: Book Room
+result: Booking successfully. your bookingID is: DVLBNO1
+
+action: Get Available Room.
+result: The available rooms are: DVL 0, KKL 0, WST 0.
+
