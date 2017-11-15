@@ -1,0 +1,42 @@
+Time: 2017-11-07 15:23:30
+Request Type: Create Room
+Parameters: Date:2017-11-08 ,Room Number:201.
+Request Result:success
+Response:The number of room has been created is:5
+
+Time: 2017-11-07 15:25:13
+Request Type: getAvailableTimeSlot
+Parameters: Date:2017-11-08.
+Request Result:success
+Response:Available Time Slot Number:DVL 5, 
+
+Time: 2017-11-07 15:27:42
+Request Type: getRoomRecordAvailable
+Parameters: User:WSTS1111, BookingID: DVL.
+Request Result:success
+Response:Get Room Record is true .
+
+Time: 2017-11-07 15:27:42
+Request Type: bookRoom
+Parameters: User:WSTS1111, Date: 2017-11-08, Room number: 201, Time slot:08:00-09:00.
+Request Result:success
+Response:Booking ID: DVLBNO4
+
+Time: 2017-11-07 15:28:41
+Request Type: getAvailableTimeSlot
+Parameters: Date:2017-11-08.
+Request Result:success
+Response:Available Time Slot Number:DVL 4, 
+
+Time: 2017-11-07 15:29:23
+Request Type: bookRoom
+Parameters: User:WSTS1111, Date: 2017-11-08, Room number: 201, Time slot:09:00-10:00.
+Request Result:success
+Response:Booking ID: DVLBNO6
+
+Time: 2017-11-07 15:29:32
+Request Type: getAvailableTimeSlot
+Parameters: Date:2017-11-08.
+Request Result:success
+Response:Available Time Slot Number:DVL 3, 
+
