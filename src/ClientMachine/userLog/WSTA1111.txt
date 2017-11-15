@@ -1,4 +1,0 @@
-Time: 2017-11-07 15:24:49
-action: Create Room.
-result: The number of timeslots get created is: 5
-
