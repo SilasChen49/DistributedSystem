@@ -2,35 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a43095-d166-4d6d-80a4-677edc2b399b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rmi/Client2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rmi/DVLDatabase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rmi/DebugClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rmi/KKLServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rmi/ServerLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rmi/UserClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rmi/UserLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rmi/WSTServer.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/AdminClient1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/AdminServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/AdminServiceInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/Database$TimeSlotRecord.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/Database$bookingRecord.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/StudentClient1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/StudentServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/StudentServiceInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/AdminClient1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/AdminServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/AdminServiceInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/StudentClient1.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/rmi/DVLserver.java" afterPath="$PROJECT_DIR$/src/rmi/DVLServer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/rmi/StudentServiceImpl.java" afterPath="$PROJECT_DIR$/src/rmi/ServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/rmi/StudentServiceInterface.java" afterPath="$PROJECT_DIR$/src/rmi/ServiceInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/DVLserver.class" afterPath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/DVLserver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/Database.class" afterPath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/Database.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/DistributedSystem/TestDatabase.class" afterPath="$PROJECT_DIR$/out/test/DistributedSystem/TestDatabase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ClientMachine/Service.idl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ClientMachine/ServiceApp/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ClientMachine/ServiceApp/UserClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ClientMachine/ServiceApp/UserLog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/Service.idl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/Database.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/Server.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServerLog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/Service.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceHolder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceOperations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServicePOA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/TimeSeqHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/TimeSeqHolder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/_ServiceStub.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/BookingRecord.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/Client2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/DVLDatabase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/DVLserver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/Database$SingletonHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/Database.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/DebugClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/KKLServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/ServerLog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/ServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/ServiceInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/TimeSlotRecord.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/UserClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/UserLog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/WSTServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/serverLog/DVL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/userLog/DVLA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/userLog/DVLA111.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/userLog/DVLS1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/DistributedSystem/TestDatabase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Test/TestDatabase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/Client2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/DVLDatabase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/DVLServer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/Database.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/DebugClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/KKLServer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/ServerLog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/ServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/ServiceInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/UserClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/UserLog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/WSTServer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/serverLog/DVL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/serverLog/KKL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/serverLog/WST.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/userLog/DVLA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/userLog/DVLA1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/userLog/DVLA111.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/userLog/DVLS1.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test/TestDatabase.java" afterPath="$PROJECT_DIR$/src/Test/TestDatabase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rmi/Database.java" afterPath="$PROJECT_DIR$/src/rmi/Database.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,118 +69,115 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DistributedSystem$Server.coverage" NAME="Server Coverage Results" MODIFIED="1510081919660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ServerMachine.HelloApp.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/DistributedSystem$TestDatabase.coverage" NAME="TestDatabase Coverage Results" MODIFIED="1507078566016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DVLServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rmi/DVLServer.java">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+            <state relative-caret-position="389">
+              <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserLog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/UserLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="80" lean-forward="false" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rmi/Database.java">
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            <state relative-caret-position="-126">
+              <caret line="58" column="138" lean-forward="false" selection-start-line="58" selection-start-column="78" selection-end-line="58" selection-end-column="138" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/rmi/ServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-128">
-              <caret line="113" column="23" lean-forward="true" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rmi/ServiceInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rmi/Client2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DebugClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rmi/DebugClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="30" column="57" lean-forward="false" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerLog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rmi/ServerLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rmi/UserClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="60" column="66" lean-forward="false" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DVLA.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rmi/userLog/DVLA.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DVL.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rmi/serverLog/DVL.txt">
+        <entry file="file://$PROJECT_DIR$/src/ServerMachine/serverLog/DVL.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KKL.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ServerMachine/serverLog/KKL.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WST.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ServerMachine/serverLog/WST.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Service.idl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ServerMachine/Service.idl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/UserClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="65" column="93" lean-forward="true" selection-start-line="65" selection-start-column="93" selection-end-line="65" selection-end-column="93" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerLog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServerLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Database.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/Database.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="249" column="22" lean-forward="true" selection-start-line="249" selection-start-column="22" selection-end-line="250" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,6 +187,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -170,9 +196,20 @@
     <findStrings>
       <find>Student</find>
       <find>studentID</find>
-      <find>DVL</find>
       <find>su</find>
       <find>campusID</find>
+      <find>s</find>
+      <find>room_Number,s</find>
+      <find>@Override</find>
+      <find>HelloApp.</find>
+      <find>throws RemoteException</find>
+      <find>DVL</find>
+      <find>sayhello</find>
+      <find>get</find>
+      <find>ServiceApp.</find>
+      <find>ClientMachine.ServiceApp.</find>
+      <find>String changeReservation(String booking_id, String studentID, String campusName, String date, String room_Number, String timeslot);</find>
+      <find>booking_id</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,47 +223,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/rmi/rmi.java" />
-        <option value="$PROJECT_DIR$/src/rmi/client.java" />
-        <option value="$PROJECT_DIR$/src/rmi/security.policy" />
-        <option value="$PROJECT_DIR$/src/rmi/AddInterface.java" />
-        <option value="$PROJECT_DIR$/src/rmi/state.java" />
-        <option value="$PROJECT_DIR$/src/rmi/AddClass.java" />
-        <option value="$PROJECT_DIR$/src/rmi/AdminInterface.java" />
-        <option value="$PROJECT_DIR$/src/rmi/DataBase.java" />
-        <option value="$PROJECT_DIR$/src/Test/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/rmi/StudentInterface.java" />
-        <option value="$PROJECT_DIR$/src/rmi/StudentServiceClass.java" />
-        <option value="$PROJECT_DIR$/src/rmi/server.java" />
-        <option value="$PROJECT_DIR$/src/rmi/TimerTaskTest.java" />
-        <option value="$PROJECT_DIR$/src/rmi/DVLAdminClient1.java" />
-        <option value="$PROJECT_DIR$/src/rmi/DVLStudentClient1.java" />
-        <option value="$PROJECT_DIR$/src/rmi/AdminServiceInterface.java" />
-        <option value="$PROJECT_DIR$/src/rmi/StudentServiceInterface.java" />
-        <option value="$PROJECT_DIR$/src/rmi/AdminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/rmi/StudentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/rmi/DVLserver.java" />
-        <option value="$PROJECT_DIR$/src/rmi/AdminClient1.java" />
-        <option value="$PROJECT_DIR$/src/Test/TestDatabase.java" />
-        <option value="$PROJECT_DIR$/src/rmi/DVLDatabase.java" />
-        <option value="$PROJECT_DIR$/src/rmi/Database.java" />
-        <option value="$PROJECT_DIR$/src/rmi/userLog/DVLA1111.txt" />
-        <option value="$PROJECT_DIR$/src/rmi/userLog/DVLA11112.txt" />
-        <option value="$PROJECT_DIR$/src/rmi/StudentClient1.java" />
-        <option value="$PROJECT_DIR$/src/rmi/Client2.java" />
-        <option value="$PROJECT_DIR$/src/rmi/userLog.java" />
-        <option value="$PROJECT_DIR$/src/rmi/UserLog.java" />
-        <option value="$PROJECT_DIR$/src/rmi/userLog/DVLS111.txt" />
-        <option value="$PROJECT_DIR$/src/rmi/userLog/WSTS22.txt" />
-        <option value="$PROJECT_DIR$/src/rmi/DVLServer.java" />
-        <option value="$PROJECT_DIR$/src/rmi/KKLServer.java" />
-        <option value="$PROJECT_DIR$/src/rmi/WSTServer.java" />
-        <option value="$PROJECT_DIR$/src/rmi/ServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/rmi/ServerLog.java" />
-        <option value="$PROJECT_DIR$/src/rmi/serverLog/KKL.txt" />
-        <option value="$PROJECT_DIR$/src/rmi/serverLog/DVL.txt" />
-        <option value="$PROJECT_DIR$/src/rmi/UserClient.java" />
+        <option value="$PROJECT_DIR$/src/tcp/TCPClient.java" />
+        <option value="$PROJECT_DIR$/src/corba/Hello.idl" />
+        <option value="$PROJECT_DIR$/src/corba/HelloServant.java" />
+        <option value="$PROJECT_DIR$/src/corba/HelloApp/Hello.java" />
+        <option value="$PROJECT_DIR$/src/corba/HelloApp/HelloHelper.java" />
+        <option value="$PROJECT_DIR$/src/corba/HelloApp/HelloOperations.java" />
+        <option value="$PROJECT_DIR$/src/corba/HelloApp/HelloPOA.java" />
+        <option value="$PROJECT_DIR$/src/corba/HelloApp/_HelloStub.java" />
+        <option value="$PROJECT_DIR$/src/corba/HelloApp/HelloHolder.java" />
+        <option value="$PROJECT_DIR$/src/corba/HelloImpl.java" />
+        <option value="$PROJECT_DIR$/src/corba/HelloClient.java" />
+        <option value="$PROJECT_DIR$/src/corba/HelloServer.java" />
+        <option value="$PROJECT_DIR$/src/ClientMachine/HelloApp/HelloClient.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/HelloApp/_HelloStub.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/HelloApp/Hello.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/HelloApp/HelloHolder.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/HelloApp/HelloPOA.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/HelloApp/HelloHelper.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/HelloApp/HelloServer.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/HelloApp/HelloImpl.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/HelloClient.java" />
+        <option value="$PROJECT_DIR$/src/ClientMachine/ServiceApp/DebugClient.java" />
         <option value="$PROJECT_DIR$/src/rmi/DebugClient.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServerLog.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/ServiceApp/UDP.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/ServiceApp/KKLServer.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/ServiceApp/DVLServer.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/ServiceApp/WSTServer.java" />
+        <option value="$PROJECT_DIR$/src/ClientMachine/Service.idl" />
+        <option value="$PROJECT_DIR$/src/ClientMachine/ServiceApp/Service.java" />
+        <option value="$PROJECT_DIR$/src/ClientMachine/ServiceApp/ServiceOperations.java" />
+        <option value="$PROJECT_DIR$/src/ClientMachine/ServiceApp/TimeSeqHolder.java" />
+        <option value="$PROJECT_DIR$/src/ClientMachine/ServiceApp/TimeSeqHelper.java" />
+        <option value="$PROJECT_DIR$/src/ClientMachine/ServiceApp/ServicePOA.java" />
+        <option value="$PROJECT_DIR$/src/ClientMachine/ServiceApp/ServiceHolder.java" />
+        <option value="$PROJECT_DIR$/src/ClientMachine/ServiceApp/ServiceHelper.java" />
+        <option value="$PROJECT_DIR$/src/ClientMachine/ServiceApp/_ServiceStub.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/ServiceApp/_ServiceStub.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/ServiceApp/Service.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceHolder.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/ServiceApp/TimeSeqHolder.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServicePOA.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceHelper.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/ServiceApp/TimeSeqHelper.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/ServiceApp/Database.java" />
+        <option value="$PROJECT_DIR$/src/ClientMachine/ServiceApp/UserLog.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/serverLog/WST.txt" />
+        <option value="$PROJECT_DIR$/src/ClientMachine/ServiceApp/Client.java" />
+        <option value="$PROJECT_DIR$/src/ClientMachine/ServiceApp/UserClient.java" />
+        <option value="$PROJECT_DIR$/src/ServerMachine/ServiceApp/Server.java" />
       </list>
     </option>
   </component>
@@ -236,9 +283,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="712" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -286,40 +334,46 @@
             <path>
               <item name="DistributedSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="DistributedSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DistributedSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DistributedSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="rmi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DistributedSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="DistributedSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DistributedSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DistributedSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ClientMachine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DistributedSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DistributedSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ServerMachine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DistributedSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DistributedSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ServerMachine" type="462c0819:PsiDirectoryNode" />
               <item name="serverLog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DistributedSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="DistributedSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi" type="462c0819:PsiDirectoryNode" />
-              <item name="userLog" type="462c0819:PsiDirectoryNode" />
+              <item name="ServerMachine" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DistributedSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="DistributedSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi" type="462c0819:PsiDirectoryNode" />
+              <item name="ServerMachine" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
               <item name="Database.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="DistributedSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DistributedSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DistributedSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -335,7 +389,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="web.server" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -343,11 +397,23 @@
     <property name="nodejs.protractor.protractor_package" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/rmi/userLog" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ClientMachine/ServiceApp" />
+      <recent name="$PROJECT_DIR$/src/ServerMachine/ServiceApp" />
+      <recent name="$PROJECT_DIR$/src/ServerMachine" />
       <recent name="$PROJECT_DIR$/src/lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ClientMachine.ServiceApp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ServerMachine" />
+      <recent name="$PROJECT_DIR$/src/ClientMachine" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/rmi/userLog" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -362,36 +428,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DebugClient">
-    <configuration name="Client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="rmi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="rmi.Client2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DistributedSystem" />
-      <envs />
-    </configuration>
-    <configuration name="DVLServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="rmi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="rmi.DVLServer" />
-      <option name="VM_PARAMETERS" value="-Djava.net.preferIPv4Stack=true" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="Client" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ClientMachine.ServiceApp.Client" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="-ORBInitialPort 8001 -ORBInitialHost localhost" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -401,17 +443,12 @@
       <module name="DistributedSystem" />
       <envs />
     </configuration>
-    <configuration name="DebugClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="rmi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="rmi.DebugClient" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="DVLServer" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ServerMachine.ServiceApp.DVLServer" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="-ORBInitialPort 8001 -ORBInitialHost localhost" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -420,17 +457,12 @@
       <module name="DistributedSystem" />
       <envs />
     </configuration>
-    <configuration name="KKLServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="rmi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="rmi.KKLServer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="KKLServer" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ServerMachine.ServiceApp.KKLServer" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="-ORBInitialPort 8001 -ORBInitialHost localhost" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -439,17 +471,17 @@
       <module name="DistributedSystem" />
       <envs />
     </configuration>
-    <configuration name="WSTServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="rmi.*" />
+          <option name="PATTERN" value="ServerMachine.HelloApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="rmi.WSTServer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="ServerMachine.ServiceApp.Server" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="-ORBInitialPort 8001 -ORBInitialHost localhost" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -539,20 +571,42 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="tcp in DistributedSystem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DistributedSystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tcp" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DVLServer" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Client2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.KKLServer" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DebugClient" />
-      <item index="4" class="java.lang.String" itemvalue="Application.WSTServer" />
+      <item index="0" class="java.lang.String" itemvalue="Application.KKLServer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DVLServer" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Client" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Server" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.tcp in DistributedSystem" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DebugClient" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Client2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DVLServer" />
-        <item index="3" class="java.lang.String" itemvalue="Application.KKLServer" />
-        <item index="4" class="java.lang.String" itemvalue="Application.WSTServer" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Server" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.tcp in DistributedSystem" />
       </list>
     </recent_temporary>
   </component>
@@ -575,14 +629,23 @@
       <workItem from="1506961551658" duration="12757000" />
       <workItem from="1506984183899" duration="220000" />
       <workItem from="1506987551034" duration="320000" />
-      <workItem from="1506991672139" duration="51783000" />
+      <workItem from="1506991672139" duration="54962000" />
+      <workItem from="1507397873907" duration="3589000" />
+      <workItem from="1507996784578" duration="3991000" />
+      <workItem from="1508190815077" duration="505000" />
+      <workItem from="1508191514222" duration="1056000" />
+      <workItem from="1508604275249" duration="938000" />
+      <workItem from="1508708310534" duration="481000" />
+      <workItem from="1508771816921" duration="9000" />
+      <workItem from="1509411098650" duration="220000" />
+      <workItem from="1509476873101" duration="10038000" />
+      <workItem from="1509740164177" duration="5553000" />
+      <workItem from="1509913111979" duration="24012000" />
+      <workItem from="1510177889237" duration="2316000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDatabase - 2017.10.03 at 20h 45m 17s.xml">
-      <configuration name="TestDatabase" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestDatabase - 2017.10.03 at 20h 49m 31s.xml">
       <configuration name="TestDatabase" configurationId="JUnit" />
     </history-entry>
@@ -610,38 +673,41 @@
     <history-entry file="TestDatabase_addRoom - 2017.10.03 at 20h 54m 30s.xml">
       <configuration name="TestDatabase.addRoom" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="tcp_in_DistributedSystem - 2017.10.30 at 20h 51m 56s.xml">
+      <configuration name="tcp in DistributedSystem" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70877000" />
+    <option name="totallyTimeSpent" value="126764000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="712" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32533333" sideWeight="0.503125" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.363047" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27059773" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3397524" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -655,307 +721,250 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/rmi/TimerTaskTest.java">
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/HelloApp/HelloPOA.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/Hello.idl" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/HelloApp/HelloOperations.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/HelloApp/Hello.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/HelloApp/_HelloStub.java" />
+    <entry file="file://$PROJECT_DIR$/src/rmi/ServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/HelloApp/HelloClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/Service.idl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        <state relative-caret-position="45">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/AddInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/HelloClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/rmi/DebugClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/rmi/DVLServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/DebugClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/Test/TestDatabase.java" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/UDP.java" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/state.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/security.policy" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/net/Socket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3150">
-          <caret line="210" column="0" lean-forward="false" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/DVLServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="146">
+          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/AddInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/net/ServerSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1905">
-          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/AddClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DistributedSystem.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/net/Socket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2685">
-          <caret line="210" column="0" lean-forward="false" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/net/ServerSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/security.policy" />
-    <entry file="file://$PROJECT_DIR$/src/Test/TestBase.java" />
-    <entry file="file://$PROJECT_DIR$/src/rmi/state.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/rmi/Naming.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="217" column="28" lean-forward="false" selection-start-line="217" selection-start-column="28" selection-end-line="217" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="850" column="0" lean-forward="false" selection-start-line="850" selection-start-column="0" selection-end-line="850" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/AddInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/AddClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/TimerTaskTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/AdminServiceInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/AdminClient1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/AdminServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/TestDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/DVLDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/StudentClient1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/userLog/DVLS111.txt">
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/DVLServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/KKLServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/Service.idl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <caret line="9" column="77" lean-forward="false" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/userLog/DVLA111124224.txt">
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/TimeSeqHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/TimeSeqHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="34" column="62" lean-forward="false" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/ServicePOA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-366">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <caret line="87" column="39" lean-forward="false" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
+          <caret line="99" column="39" lean-forward="false" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/ServiceOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/ServiceHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/ServiceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <caret line="32" column="66" lean-forward="false" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <caret line="47" column="73" lean-forward="false" selection-start-line="47" selection-start-column="73" selection-end-line="47" selection-end-column="73" />
+          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <caret line="56" column="28" lean-forward="false" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+          <caret line="57" column="14" lean-forward="false" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+          <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+          <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+          <caret line="69" column="16" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+          <caret line="73" column="28" lean-forward="false" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+          <caret line="74" column="14" lean-forward="false" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
+          <caret line="78" column="6" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+          <caret line="78" column="30" lean-forward="false" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/_ServiceStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-788">
+          <caret line="10" column="79" lean-forward="false" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+          <caret line="104" column="16" lean-forward="false" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
+          <caret line="126" column="16" lean-forward="false" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/TimeSeqHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="34" column="62" lean-forward="false" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/TimeSeqHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServicePOA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="31" column="66" lean-forward="false" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/_ServiceStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="133" column="54" lean-forward="false" selection-start-line="133" selection-start-column="54" selection-end-line="133" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/TimeSeqHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/userLog/DVLA1111244.txt">
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rmi/UserClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1610">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/userLog/DVLA11112.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/userLog/DVLA1111.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/userLog/WSTS22.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/KKLServer.java">
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServerLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="72" lean-forward="false" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="80" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/WSTServer.java">
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/userLog/KKLA1111.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="16" column="72" lean-forward="false" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/UserLog.java">
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/userLog/WSTA1111.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/Client2.java">
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/userLog/DVLA1111.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/userLog/WSTS1111.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/UserLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="80" lean-forward="false" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/Service.idl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/serverLog/WST.txt">
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/serverLog/DVL.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -963,7 +972,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/serverLog/KKL.txt">
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/serverLog/KKL.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -971,90 +980,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/userLog/DVLA1.txt">
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/serverLog/WST.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="499">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/ServerLog.java">
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        <state relative-caret-position="389">
+          <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/userLog/DVLA.txt">
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/serverLog/DVL.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/UserClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="60" column="66" lean-forward="false" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="66" />
+        <state relative-caret-position="-126">
+          <caret line="58" column="138" lean-forward="false" selection-start-line="58" selection-start-column="78" selection-end-line="58" selection-end-column="138" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/DebugClient.java">
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/UserClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="30" column="57" lean-forward="false" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/DVLServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        <state relative-caret-position="295">
+          <caret line="65" column="93" lean-forward="true" selection-start-line="65" selection-start-column="93" selection-end-line="65" selection-end-column="93" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/Database.java">
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/ServiceInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rmi/ServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128">
-          <caret line="113" column="23" lean-forward="true" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
+        <state relative-caret-position="319">
+          <caret line="249" column="22" lean-forward="true" selection-start-line="249" selection-start-column="22" selection-end-line="250" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

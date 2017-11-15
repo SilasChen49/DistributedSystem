@@ -1,5 +1,0 @@
-Request Type: Create Room
-Parameters: Date:1 ,Room Number:1.
-Request Result:success
-Response:The number of room has been created is:4
-

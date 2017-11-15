@@ -1,0 +1,6 @@
+Time: 2017-11-07 15:23:30
+Request Type: Create Room
+Parameters: Date:2017-11-08 ,Room Number:201.
+Request Result:success
+Response:The number of room has been created is:5
+

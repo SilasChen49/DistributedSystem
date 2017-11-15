@@ -1,0 +1,12 @@
+module ServiceApp {
+    typedef sequence<string> TimeSeq;
+    interface Service {
+        string sayHello();
+        string bookRoom(in string studentID, in string campusName, in string date, in string room_Number, in string timeslot);
+        string getAvailableTimeSlot(in string date);
+        boolean cancelBooking(in string studentID, in string bookingID);
+        long createRoom(in string date, in string room_Number, in TimeSeq list_Of_Time_Slots);
+        long deleteRoom(in string date, in string room_Number, in TimeSeq list_Of_Time_Slots);
+        string changeReservation (in string booking_id, in string studentID, in string campusName, in string date, in string room_Number, in string timeslot);
+    };
+};

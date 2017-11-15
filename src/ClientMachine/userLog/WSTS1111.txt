@@ -1,0 +1,36 @@
+Time: 2017-11-07 15:25:13
+action: Get Available Room.
+result: The available rooms are: DVL 5, KKL 5, WST 5, 
+
+Time: 2017-11-07 15:25:34
+action: Book Room
+result: Booking successfully. your bookingID is: KKLBNO1
+
+Time: 2017-11-07 15:26:15
+action: Book Room
+result: Booking successfully. your bookingID is: KKLBNO2
+
+Time: 2017-11-07 15:26:41
+action: Book Room
+result: Booking successfully. your bookingID is: KKLBNO3
+
+Time: 2017-11-07 15:27:06
+action: Book Room
+result: Booking failed.
+
+Time: 2017-11-07 15:28:41
+action: Get Available Room.
+result: The available rooms are: DVL 4, KKL 4, WST 4, 
+
+Time: 2017-11-07 15:29:06
+action: Cancel Booked Room.
+result: The room is cancelled.
+
+Time: 2017-11-07 15:29:23
+action: Book Room
+result: Booking successfully. your bookingID is: DVLBNO6
+
+Time: 2017-11-07 15:29:32
+action: Get Available Room.
+result: The available rooms are: DVL 3, KKL 5, WST 4, 
+

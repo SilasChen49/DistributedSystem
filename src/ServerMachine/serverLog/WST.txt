@@ -1,0 +1,138 @@
+Time: 2017-11-07 15:24:49
+Request Type: Create Room
+Parameters: Date:2017-11-08 ,Room Number:201.
+Request Result:success
+Response:The number of room has been created is:5
+
+Time: 2017-11-07 15:25:13
+Request Type: getAvailableTimeSlot
+Parameters: Date:2017-11-08.
+Request Result:success
+Response:Available Time Slot Number:WST 5, 
+
+Time: 2017-11-07 15:25:34
+Request Type: getBookingCount
+Parameters: User:WSTS1111, Date: 2017-11-08.
+Request Result:success
+Response:Booking Count :0 .
+
+Time: 2017-11-07 15:25:34
+Request Type: modifyCount
+Parameters: User:WSTS1111, Date: 2017-11-08.
+Request Result:success
+Response:Modify Booking Count Success.
+
+Time: 2017-11-07 15:26:15
+Request Type: getBookingCount
+Parameters: User:WSTS1111, Date: 2017-11-08.
+Request Result:success
+Response:Booking Count :1 .
+
+Time: 2017-11-07 15:26:15
+Request Type: modifyCount
+Parameters: User:WSTS1111, Date: 2017-11-08.
+Request Result:success
+Response:Modify Booking Count Success.
+
+Time: 2017-11-07 15:26:41
+Request Type: getBookingCount
+Parameters: User:WSTS1111, Date: 2017-11-08.
+Request Result:success
+Response:Booking Count :2 .
+
+Time: 2017-11-07 15:26:41
+Request Type: modifyCount
+Parameters: User:WSTS1111, Date: 2017-11-08.
+Request Result:success
+Response:Modify Booking Count Success.
+
+Time: 2017-11-07 15:27:06
+Request Type: getBookingCount
+Parameters: User:WSTS1111, Date: 2017-11-08.
+Request Result:success
+Response:Booking Count :3 .
+
+Time: 2017-11-07 15:27:06
+Request Type: bookRoom
+Parameters: User:WSTS1111, Date: 2017-11-08, Room number: 201, Time slot:08:00-09:00.
+Request Result:failed
+Response:No Booking ID.
+
+Time: 2017-11-07 15:27:42
+Request Type: modifyCount
+Parameters: User:WSTS1111, Date: 2017-11-08.
+Request Result:success
+Response:Modify Booking Count Success.
+
+Time: 2017-11-07 15:27:42
+Request Type: getBookingCount
+Parameters: User:WSTS1111, Date: 2017-11-08.
+Request Result:success
+Response:Booking Count :2 .
+
+Time: 2017-11-07 15:27:42
+Request Type: modifyCount
+Parameters: User:WSTS1111, Date: 2017-11-08.
+Request Result:success
+Response:Modify Booking Count Success.
+
+Time: 2017-11-07 15:28:28
+Request Type: getRoomRecordAvailable
+Parameters: User:WSTS1111, BookingID: WST.
+Request Result:success
+Response:Get Room Record is true .
+
+Time: 2017-11-07 15:28:28
+Request Type: modifyCount
+Parameters: User:WSTS1111, Date: 2017-11-08.
+Request Result:success
+Response:Modify Booking Count Success.
+
+Time: 2017-11-07 15:28:28
+Request Type: getBookingCount
+Parameters: User:WSTS1111, Date: 2017-11-08.
+Request Result:success
+Response:Booking Count :2 .
+
+Time: 2017-11-07 15:28:28
+Request Type: modifyCount
+Parameters: User:WSTS1111, Date: 2017-11-08.
+Request Result:success
+Response:Modify Booking Count Success.
+
+Time: 2017-11-07 15:28:28
+Request Type: bookRoom
+Parameters: User:WSTS1111, Date: 2017-11-08, Room number: 201, Time slot:08:00-09:00.
+Request Result:success
+Response:Booking ID: WSTBNO5
+
+Time: 2017-11-07 15:28:41
+Request Type: getAvailableTimeSlot
+Parameters: Date:2017-11-08.
+Request Result:success
+Response:Available Time Slot Number:WST 4, 
+
+Time: 2017-11-07 15:29:06
+Request Type: modifyCount
+Parameters: User:WSTS1111, Date: 2017-11-08.
+Request Result:success
+Response:Modify Booking Count Success.
+
+Time: 2017-11-07 15:29:23
+Request Type: getBookingCount
+Parameters: User:WSTS1111, Date: 2017-11-08.
+Request Result:success
+Response:Booking Count :2 .
+
+Time: 2017-11-07 15:29:23
+Request Type: modifyCount
+Parameters: User:WSTS1111, Date: 2017-11-08.
+Request Result:success
+Response:Modify Booking Count Success.
+
+Time: 2017-11-07 15:29:32
+Request Type: getAvailableTimeSlot
+Parameters: Date:2017-11-08.
+Request Result:success
+Response:Available Time Slot Number:WST 4, 
+

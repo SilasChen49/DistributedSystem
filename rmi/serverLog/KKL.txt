@@ -1,0 +1,78 @@
+Time: 2017-10-14 14:00:27
+Request Type: Book Room
+Parameters: Campus: DVL, Date: 2017-10-16, Room number: 201, Time slot:14:00-16:00.
+Request Result:success
+Response:Booking ID: DVLBNO4
+
+Time: 2017-10-14 14:00:49
+Request Type: Get Available Timeslot
+Parameters: Date: 2016-10-16
+Request Result:success
+Response:DVL 0, KKL 0, WST 0.
+
+Time: 2017-10-14 14:01:00
+Request Type: Get Available Timeslot
+Parameters: Date: 2017-10-16
+Request Result:success
+Response:DVL 1, KKL 0, WST 0.
+
+Time: 2017-11-03 16:23:41
+Request Type: Create Room
+Parameters: Date:2017-10-31 ,Room Number:201.
+Request Result:success
+Response:The number of room has been created is:4
+
+Time: 2017-11-05 11:02:29
+Request Type: Create Room
+Parameters: Date:2017-10-31 ,Room Number:201.
+Request Result:success
+Response:The number of room has been created is:4
+
+Time: 2017-11-05 11:02:29
+Request Type: Create Room
+Parameters: Date:2017-10-31 ,Room Number:201.
+Request Result:success
+Response:The number of room has been created is:4
+
+Time: 2017-11-05 11:02:29
+Request Type: Create Room
+Parameters: Date:2017-10-31 ,Room Number:201.
+Request Result:success
+Response:The number of room has been created is:4
+
+Time: 2017-11-05 11:05:36
+Request Type: Create Room
+Parameters: Date:2017-10-31 ,Room Number:201.
+Request Result:success
+Response:The number of room has been created is:4
+
+Time: 2017-11-05 11:05:36
+Request Type: Create Room
+Parameters: Date:2017-10-31 ,Room Number:201.
+Request Result:success
+Response:The number of room has been created is:0
+
+Time: 2017-11-05 11:05:36
+Request Type: Create Room
+Parameters: Date:2017-10-31 ,Room Number:201.
+Request Result:success
+Response:The number of room has been created is:0
+
+Time: 2017-11-05 11:07:52
+Request Type: Create Room
+Parameters: Date:2017-10-31 ,Room Number:201.
+Request Result:success
+Response:The number of room has been created is:4
+
+Time: 2017-11-05 11:07:52
+Request Type: Create Room
+Parameters: Date:2017-10-31 ,Room Number:201.
+Request Result:success
+Response:The number of room has been created is:0
+
+Time: 2017-11-05 11:07:52
+Request Type: Create Room
+Parameters: Date:2017-10-31 ,Room Number:201.
+Request Result:success
+Response:The number of room has been created is:0
+

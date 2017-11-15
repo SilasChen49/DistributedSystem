@@ -1,0 +1,18 @@
+Time: 2017-10-14 13:57:19
+Request Type: Create Room
+Parameters: Date:2017-10-16 ,Room Number:201.
+Request Result:success
+Response:The number of room has been created is:5
+
+Time: 2017-10-14 13:57:57
+Request Type: Get Available Timeslot
+Parameters: Date: 2017-10-16
+Request Result:success
+Response:DVL 5, KKL 0, WST 0.
+
+Time: 2017-10-14 13:59:27
+Request Type: Get Available Timeslot
+Parameters: Date: 2017-10-16
+Request Result:success
+Response:DVL 2, KKL 0, WST 0.
+

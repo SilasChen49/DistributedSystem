@@ -1,0 +1,3 @@
+action: Create Room.
+result: The number of timeslots get created is: 5
+

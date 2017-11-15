@@ -1,3 +1,0 @@
-action: ggg
-result: gg
-

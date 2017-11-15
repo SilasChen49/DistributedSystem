@@ -1,0 +1,9 @@
+action: Book Room
+result: Booking successfully. your bookingID is: DVLBNO4
+
+action: Get Available Room.
+result: The available rooms are: DVL 0, KKL 0, WST 0.
+
+action: Get Available Room.
+result: The available rooms are: DVL 1, KKL 0, WST 0.
+
