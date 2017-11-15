@@ -2,63 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a43095-d166-4d6d-80a4-677edc2b399b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ClientMachine/Service.idl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ClientMachine/ServiceApp/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ClientMachine/ServiceApp/UserClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ClientMachine/ServiceApp/UserLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/Service.idl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/Database.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/Server.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServerLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/Service.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceOperations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServicePOA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/TimeSeqHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/TimeSeqHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServerMachine/ServiceApp/_ServiceStub.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/BookingRecord.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/Client2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/DVLDatabase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/DVLserver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/Database$SingletonHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/Database.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/DebugClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/KKLServer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/ServerLog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/ServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/ServiceInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/TimeSlotRecord.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/UserClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/UserLog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/WSTServer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/serverLog/DVL.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/userLog/DVLA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/userLog/DVLA111.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DistributedSystem/rmi/userLog/DVLS1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/DistributedSystem/TestDatabase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Test/TestDatabase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/Client2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/DVLDatabase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/DVLServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/Database.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/DebugClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/KKLServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/ServerLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/ServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/ServiceInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/UserClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/UserLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/WSTServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/serverLog/DVL.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/serverLog/KKL.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/serverLog/WST.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/userLog/DVLA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/userLog/DVLA1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/userLog/DVLA111.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rmi/userLog/DVLS1.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rmi/Database.java" afterPath="$PROJECT_DIR$/rmi/Database.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,108 +21,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserLog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/UserLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="80" lean-forward="false" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-126">
-              <caret line="58" column="138" lean-forward="false" selection-start-line="58" selection-start-column="78" selection-end-line="58" selection-end-column="138" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DVL.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ServerMachine/serverLog/DVL.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KKL.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ServerMachine/serverLog/KKL.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WST.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ServerMachine/serverLog/WST.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Service.idl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ServerMachine/Service.idl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/UserClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="65" column="93" lean-forward="true" selection-start-line="65" selection-start-column="93" selection-end-line="65" selection-end-column="93" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerLog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServerLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Database.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/Database.java">
+        <entry file="file://$PROJECT_DIR$/rmi/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="249" column="22" lean-forward="true" selection-start-line="249" selection-start-column="22" selection-end-line="250" selection-end-column="20" />
+            <state relative-caret-position="207">
+              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1510705476000" expanded="true" signature="46431:46473" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="46431:46491" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="46431:46504" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="46431:46519" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="46554:49016" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="46567:49001" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="46621:46916" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="46640:46901" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="46703:46881" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="46743:46847" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="46764:46825" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="46966:47293" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="46985:47278" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="47080:47258" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="47120:47224" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="47141:47202" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="47344:47609" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="47363:47594" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="47396:47574" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="47436:47540" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="47457:47518" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="47652:47958" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="47671:47943" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="47745:47923" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="47785:47889" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="47806:47867" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="48009:48329" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="48028:48314" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="48116:48294" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="48156:48260" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="48177:48238" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="48364:48670" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="48383:48655" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="48457:48635" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="48497:48601" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="48518:48579" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="48722:48987" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="48741:48972" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="48774:48952" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="48814:48918" ph="..." />
+                <marker date="1510705476000" expanded="true" signature="48835:48896" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DebugClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rmi/DebugClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -214,6 +125,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="temp" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -223,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tcp/TCPClient.java" />
         <option value="$PROJECT_DIR$/src/corba/Hello.idl" />
         <option value="$PROJECT_DIR$/src/corba/HelloServant.java" />
         <option value="$PROJECT_DIR$/src/corba/HelloApp/Hello.java" />
@@ -274,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/ClientMachine/ServiceApp/Client.java" />
         <option value="$PROJECT_DIR$/src/ClientMachine/ServiceApp/UserClient.java" />
         <option value="$PROJECT_DIR$/src/ServerMachine/ServiceApp/Server.java" />
+        <option value="$PROJECT_DIR$/rmi/Database.java" />
       </list>
     </option>
   </component>
@@ -322,8 +238,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -343,40 +257,6 @@
             </path>
             <path>
               <item name="DistributedSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DistributedSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ClientMachine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DistributedSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DistributedSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ServerMachine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DistributedSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DistributedSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ServerMachine" type="462c0819:PsiDirectoryNode" />
-              <item name="serverLog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DistributedSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DistributedSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ServerMachine" type="462c0819:PsiDirectoryNode" />
-              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DistributedSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DistributedSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ServerMachine" type="462c0819:PsiDirectoryNode" />
-              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
-              <item name="Database.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="DistributedSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -384,6 +264,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -642,6 +524,10 @@
       <workItem from="1509740164177" duration="5553000" />
       <workItem from="1509913111979" duration="24012000" />
       <workItem from="1510177889237" duration="2316000" />
+      <workItem from="1510704641876" duration="418000" />
+      <workItem from="1510705093689" duration="169000" />
+      <workItem from="1510705265982" duration="87000" />
+      <workItem from="1510705356055" duration="123000" />
     </task>
     <servers />
   </component>
@@ -678,7 +564,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126764000" />
+    <option name="totallyTimeSpent" value="127561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="712" extended-state="0" />
@@ -687,13 +573,13 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32533333" sideWeight="0.503125" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3241491" sideWeight="0.503125" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3273906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.363047" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27059773" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28675282" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -713,6 +599,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -721,190 +633,39 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/HelloApp/HelloPOA.java" />
-    <entry file="file://$PROJECT_DIR$/src/ClientMachine/Hello.idl" />
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/HelloApp/HelloOperations.java" />
     <entry file="file://$PROJECT_DIR$/src/ClientMachine/HelloApp/Hello.java" />
     <entry file="file://$PROJECT_DIR$/src/ClientMachine/HelloApp/_HelloStub.java" />
     <entry file="file://$PROJECT_DIR$/src/rmi/ServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/ClientMachine/HelloApp/HelloClient.java" />
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/Service.idl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/Service.idl" />
     <entry file="file://$PROJECT_DIR$/src/ServerMachine/HelloClient.java" />
     <entry file="file://$PROJECT_DIR$/src/rmi/DebugClient.java" />
     <entry file="file://$PROJECT_DIR$/src/rmi/DVLServer.java" />
     <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/DebugClient.java" />
     <entry file="file://$PROJECT_DIR$/src/Test/TestDatabase.java" />
     <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/UDP.java" />
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/Server.java" />
     <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/DVLServer.java" />
     <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/KKLServer.java" />
-    <entry file="file://$PROJECT_DIR$/src/ClientMachine/Service.idl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="77" lean-forward="false" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/TimeSeqHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-          <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/TimeSeqHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="34" column="62" lean-forward="false" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/ServicePOA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-366">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <caret line="87" column="39" lean-forward="false" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
-          <caret line="99" column="39" lean-forward="false" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/ServiceOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/ServiceHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/ServiceHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <caret line="32" column="66" lean-forward="false" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
-          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <caret line="47" column="73" lean-forward="false" selection-start-line="47" selection-start-column="73" selection-end-line="47" selection-end-column="73" />
-          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-          <caret line="56" column="28" lean-forward="false" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-          <caret line="57" column="14" lean-forward="false" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
-          <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
-          <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
-          <caret line="69" column="16" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
-          <caret line="73" column="28" lean-forward="false" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
-          <caret line="74" column="14" lean-forward="false" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
-          <caret line="78" column="6" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
-          <caret line="78" column="30" lean-forward="false" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/_ServiceStub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-788">
-          <caret line="10" column="79" lean-forward="false" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
-          <caret line="104" column="16" lean-forward="false" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
-          <caret line="126" column="16" lean-forward="false" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/TimeSeqHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="34" column="62" lean-forward="false" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/TimeSeqHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServicePOA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="31" column="66" lean-forward="false" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/_ServiceStub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="133" column="54" lean-forward="false" selection-start-line="133" selection-start-column="54" selection-end-line="133" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/TimeSeqHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/Service.idl" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/TimeSeqHolder.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/TimeSeqHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/ServicePOA.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/ServiceOperations.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/ServiceHolder.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/ServiceHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/Service.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/_ServiceStub.java" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/TimeSeqHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/TimeSeqHolder.java" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServicePOA.java" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceOperations.java" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceHolder.java" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServiceHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/_ServiceStub.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/TimeSeqHelper.class" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/Service.java" />
     <entry file="file://$PROJECT_DIR$/rmi/UserClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1610">
@@ -912,59 +673,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServerLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientMachine/userLog/KKLA1111.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientMachine/userLog/WSTA1111.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientMachine/userLog/DVLA1111.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientMachine/userLog/WSTS1111.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/UserLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="80" lean-forward="false" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/Service.idl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/serverLog/DVL.txt">
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/ServerLog.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/userLog/KKLA1111.txt" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/userLog/WSTA1111.txt" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/userLog/DVLA1111.txt" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/userLog/WSTS1111.txt" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/Service.idl" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/serverLog/DVL.txt" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/serverLog/KKL.txt" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/serverLog/WST.txt" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/Client.java" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/Server.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/UserClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/UserLog.java" />
+    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/Database.java" />
+    <entry file="file://$PROJECT_DIR$/rmi/DebugClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -972,57 +695,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/serverLog/KKL.txt">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/serverLog/WST.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1510705476000" expanded="true" signature="46431:46473" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="46431:46491" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="46431:46504" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="46431:46519" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="46554:49016" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="46567:49001" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="46621:46916" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="46640:46901" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="46703:46881" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="46743:46847" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="46764:46825" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="46966:47293" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="46985:47278" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="47080:47258" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="47120:47224" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="47141:47202" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="47344:47609" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="47363:47594" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="47396:47574" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="47436:47540" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="47457:47518" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="47652:47958" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="47671:47943" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="47745:47923" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="47785:47889" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="47806:47867" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="48009:48329" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="48028:48314" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="48116:48294" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="48156:48260" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="48177:48238" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="48364:48670" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="48383:48655" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="48457:48635" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="48497:48601" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="48518:48579" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="48722:48987" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="48741:48972" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="48774:48952" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="48814:48918" ph="..." />
+            <marker date="1510705476000" expanded="true" signature="48835:48896" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/Server.java">
+    <entry file="file://$PROJECT_DIR$/rmi/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="58" column="138" lean-forward="false" selection-start-line="58" selection-start-column="78" selection-end-line="58" selection-end-column="138" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientMachine/ServiceApp/UserClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="65" column="93" lean-forward="true" selection-start-line="65" selection-start-column="93" selection-end-line="65" selection-end-column="93" />
+        <state relative-caret-position="207">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerMachine/ServiceApp/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="249" column="22" lean-forward="true" selection-start-line="249" selection-start-column="22" selection-end-line="250" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

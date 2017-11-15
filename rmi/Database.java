@@ -22,8 +22,8 @@ public class Database {
     private static ArrayList<BookingRecord> bookingRecordList = new ArrayList<>();
 
     public int createRoom(String date, String room_Number, String[] list_Of_Time_Slots) {
-        int count = 0;
-        int listStart = 0;
+        int x = 0;
+        int y = 0;
         if (!(roomRecord.containsKey(date) && roomRecord.get(date).containsKey(room_Number))) {
             System.out.println();
             ArrayList<TimeSlotRecord> arrayList = new ArrayList<>();
